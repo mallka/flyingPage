@@ -1,0 +1,32 @@
+{
+  "name": "flying-pages",
+  "version": "2.0.6",
+  "description": "Load inner pages instantly, intelligently!",
+  "main": "flying-pages.js",
+  "scripts": {
+    "build": "babel flying-pages.js -o flying-pages.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gijo-varghese/flying-pages.git"
+  },
+  "keywords": [
+    "flying-pages",
+    "preload",
+    "fast",
+    "performance",
+    "speed"
+  ],
+  "author": "Gijo Varghese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gijo-varghese/flying-pages/issues"
+  },
+  "homepage": "https://github.com/gijo-varghese/flying-pages#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-preset-minify": "^0.5.1"
+  }
+}

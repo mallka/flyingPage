@@ -1,0 +1,21 @@
+{
+    "name": "mallka/yii2-flyingpage",
+    "description": "Wrapper for flying page",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","flyingpage","widget"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mallka.com",
+            "email": "chen@yiirise.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "mallka\\flyingpage\\":  "./src"
+        }
+    }
+}
